@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.logo{
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(black, grey);
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    height: 70vh;
+    border: 3px solid whitesmoke;
+    border-radius: 7px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+.message{
+    background-color: rgb(255, 233, 207);
+    width: 30%;
+    padding: 10px;
+    margin: 15px 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+#sendcontainer{
+    /* display: block;
+    margin: auto; */
+
+    text-align: center;
+}
+#messageInp{
+    width: 50%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.btn{
+    cursor: pointer;
+    height: 30px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+.btn:hover{
+    background-color: rgb(147, 144, 144);
+}

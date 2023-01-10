@@ -1,0 +1,15 @@
+{
+  "name": "nodeserver",
+  "version": "1.0.0",
+  "description": "This is our Node Server for our iChat realtime app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rishu Anand",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.4"
+  }
+}
